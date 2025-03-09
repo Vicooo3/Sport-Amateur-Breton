@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Sportif</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://example.com/mon-image.jpg'); /* Image de fond */
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 100px;
+        }
+
+        .container {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur Mon Site Sportif</h1>
+    <div class="container">
+        <h2>Classement des Équipes</h2>
+        <table border="1" style="width: 100%; margin-top: 20px;">
+            <thead>
+                <tr>
+                    <th>Position</th>
+                    <th>Équipe</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Équipe A</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Équipe B</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Équipe C</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p>© 2025 Mon Site Sportif - Tous droits réservés</p>
+    </footer>
+</body>
+</html>
